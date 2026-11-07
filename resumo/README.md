@@ -1,0 +1,1 @@
+# Resumos diários do Copiloto
