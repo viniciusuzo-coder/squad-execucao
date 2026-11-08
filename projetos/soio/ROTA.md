@@ -6,5 +6,5 @@
 - **Marcos:** (definidos após o inventário)
 - **Modo de execução:** Copiloto coordena; Codex e Claude executam código em branch; Vinicius decide lançamento e gastos
 - **Onde o trabalho mora / fontes do inventário:** GitHub viniciusuzo-coder/SOIO, .soio/continuity.json, issues #22 e #43
-- **Piloto:** chat do projeto SOIO
+- **Piloto:** GPT, pelo cenário único "Squad · Piloto GPT" no Make (o projeto hoje é conduzido no ChatGPT)
 - **Etapa atual:** stage 8 concluído em 2026-10-20; parado esperando decisão de Vinicius, sem prazo

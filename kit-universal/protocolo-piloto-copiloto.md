@@ -18,6 +18,18 @@ O canal é o `DIARIO-DE-BORDO.md` de cada projeto. Entradas novas no topo, neste
 4. Escrever no Diário: `Inventário feito: N pendências, M travadas, prazos propostos no Resumo`.
 5. Levar os prazos propostos ao Resumo do Dia para Vinicius aprovar em lote.
 
+## Acordar os pilotos (todo dia, depois de ler os diários)
+Hoje todos os projetos têm piloto GPT (cenário único "Squad · Piloto GPT" no Make; ver `kit-universal/conexoes.md`).
+Para cada projeto em `projetos/`:
+1. Escolher UMA tarefa: a mais vencida cuja coluna Dono seja "Piloto" e que não esteja "feito" ou "aguardando Vinicius".
+2. Se não houver, não acordar o piloto daquele projeto.
+3. Montar o envelope: `projeto` (nome da pasta), `memoria` (ROTA + FILA + as 3 entradas mais novas do Diário), `tarefa` (a tarefa escolhida, pedindo para AVANÇAR o que der: rascunho, plano, checklist ou análise).
+4. Buscar o endereço do webhook 3038896 no Make e enviar o envelope (POST JSON).
+5. Gravar a resposta no Diário do projeto como `## AAAA-MM-DD · PILOTO GPT`. Se a resposta trouxer "Preciso de:" com algo de Vinicius, levar ao Resumo do Dia.
+6. Máximo de 2 tentativas por projeto; na segunda falha, registrar no Diário e no Resumo.
+
+O piloto GPT só prepara e avança em texto. Ele nunca decide itens 🟡/🔴: deixa isso em "Preciso de".
+
 ## Ciclo diário do Copiloto
 1. Abrir `projetos/`. Para cada projeto:
    - ler `FILA.md` e as entradas do Diário mais novas que a última entrada do Copiloto;

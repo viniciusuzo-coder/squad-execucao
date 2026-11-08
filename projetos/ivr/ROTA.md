@@ -6,5 +6,5 @@
 - **Marcos:** (definidos após o inventário)
 - **Modo de execução:** Copiloto lê e organiza; Make executa automações; Vinicius faz logins e publicações
 - **Onde o trabalho mora / fontes do inventário:** ClickUp, Make, pasta opensquad-ivr (a confirmar)
-- **Piloto:** chat do projeto IVR
+- **Piloto:** GPT, pelo cenário único "Squad · Piloto GPT" no Make (o projeto hoje é conduzido no ChatGPT)
 - **Etapa atual:** em andamento, com looping na conexão Instagram + Make
