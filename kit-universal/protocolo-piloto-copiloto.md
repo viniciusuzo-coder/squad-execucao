@@ -18,6 +18,14 @@ O canal é o `DIARIO-DE-BORDO.md` de cada projeto. Entradas novas no topo, neste
 4. Escrever no Diário: `Inventário feito: N pendências, M travadas, prazos propostos no Resumo`.
 5. Levar os prazos propostos ao Resumo do Dia para Vinicius aprovar em lote.
 
+## Propostas de projetos (Codex ou Work)
+Projetos novos chegam como pull request no squad-execucao. O gerente NÃO junta sozinho: ele confere e pergunta a Vinicius.
+Todo dia:
+1. Listar pull requests abertos no squad-execucao.
+2. Conferir cada um: mexe só numa pasta `projetos/<nome>/`? Tem ROTA, FILA, REGRAS e DIARIO-DE-BORDO? Toda tarefa tem dono, semáforo, estado e prazo?
+3. Colocar no Resumo do Dia como decisão numerada: "Juntar o projeto X? conferido: ..." (ou o que falta).
+4. Só juntar depois que Vinicius responder "sim" para aquele número.
+
 ## Acordar os pilotos (todo dia, depois de ler os diários)
 Hoje todos os projetos têm piloto GPT (cenário único "Squad · Piloto GPT" no Make; ver `kit-universal/conexoes.md`).
 Para cada projeto em `projetos/`:
